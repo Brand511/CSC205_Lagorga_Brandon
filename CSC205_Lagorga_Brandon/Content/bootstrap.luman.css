@@ -1087,9 +1087,9 @@ html {
 }
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
-  color: #28b62c;
+  color: #ff4136;
   background:#106a8c;
   background-image:url(Images/peaceful.jpeg);
 }
