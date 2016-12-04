@@ -1091,7 +1091,7 @@ body {
   line-height: 1.42857143;
   color: #28b62c;
   background:#106a8c;
-  background:url(Images/peaceful.jpeg);
+  background-image:url(Images/peaceful.jpeg);
 }
 input,
 button,
@@ -1191,7 +1191,7 @@ h6,
   font-family: inherit;
   font-weight: 400;
   line-height: 1.1;
-  color: #333333;
+  color: #28b62c;
 }
 h1 small,
 h2 small,
