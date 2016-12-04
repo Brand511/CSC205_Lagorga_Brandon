@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Yourself";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<form class="form-horizontal">
+    <fieldset>
+        <legend>A Bit about yourself</legend>
+        <Label for="nameinput">
+            Name
+            <input type="text" name="Name" id="nameinput" placeholder="First and last name">
+        </Label>
+        <Label for="addressinput">
+            address
+            <input type="text" name="Address" id="addressinput">
+        </Label>
+        <Label for="zipinput">
+            zip
+            <input type="number" name="Zip" id="zipinput">
+        </Label>
+        <Label for="phoneinput">
+            phone
+            <input type="tel" name="Phone" id="phoneinput">
+        </Label>
+        <div class="form-group">
+            <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+            <div class="col-lg-10">
+                <textarea class="form-control" rows="3" id="textArea"></textarea><grammarly-btn><div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-anonymous _9b5ef6-not_focused" data-grammarly-reactid=".0"><div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0"><div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".0.0.0">&nbsp;</div></div><span class="_9b5ef6-btn_text" data-grammarly-reactid=".0.1">Not signed in</span></div></grammarly-btn>
+                <span class="help-block">Show your family members something you are intrested in.</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-2 control-label">Radios</label>
+            <div class="col-lg-10">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="maleOption" id="optionsRadios1" value="option1" checked="">
+                        Male
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="femaleoption" id="optionsRadios2" value="option2">
+                        Female
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+                <button type="reset" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </fieldset>
+</form>
